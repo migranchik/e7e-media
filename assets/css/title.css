@@ -1,0 +1,30 @@
+.main {
+	position: absolute;
+	top: 150px;
+
+}
+
+.page__name {
+    display: flex;
+
+    align-items: center;
+}
+
+.page__name span{
+    content: '';
+	background-color: white;
+
+	width: 90px;
+	height: 4px;
+
+    margin-right: 20px;
+}
+
+.page__name{
+    color: #fff;
+}
+
+.title__page{
+    margin-top: -20px;
+	color: #fff;
+}
