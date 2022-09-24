@@ -9,10 +9,18 @@
   align-items: flex-end;
 }
 
+@media screen and (max-width: 900px) {
+	.contacts {
+		display: flex;
+    flex-direction: column;
+	}
+}
+
+
 .collabarate {
   height: 100%;
   margin-left: 30px;
-  margin-right: 30%;
+  margin-right: 20%;
 }
 
 .field {
@@ -76,12 +84,20 @@
 }
 
 .social__link {
-
-  background-color: #fff;
-
-  width: 100px;
+  display: flex;
+  align-items: flex-end;
+  width: 600px;
   height: 100px;
 
+}
+
+.social__link a {
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+
+.click_contact{
+  margin-bottom: 10px;
 }
   
 

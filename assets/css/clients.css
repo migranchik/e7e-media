@@ -1,0 +1,46 @@
+.main {
+    width: 100%;
+    color: #fff;
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+}
+
+.clients__item {
+    margin-top: 60px;
+
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(90deg, #121212, #000);
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.company {
+    
+    display: flex;
+    align-items: center;
+
+    width: 100px;
+    height: 100%;
+
+}
+
+.company img {
+    flex: 0 0 40px;
+    
+    margin-left: 60px;
+}
+
+.company h4 {
+    margin-left: 10px;
+}
+
+.description {
+    margin-left: 300px;
+}
